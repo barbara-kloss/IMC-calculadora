@@ -71,4 +71,11 @@ botaoAdicionar.addEventListener("click", function (event) {
 
         return pacienteTr;
     }
+    function validaPaciente(paciente){
+
+    }
+
+    function exibem(){
+        
+    }
 
