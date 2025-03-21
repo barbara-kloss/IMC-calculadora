@@ -24,7 +24,6 @@ for (let i = 0; i < pacientes.length; i++) {
         tdImc.textContent = "Altura inválida!";
     }
 
-
     if (!alturaValida && !pesoValido) {
         tdImc.textContent = "Peso e/ou Altura inválidos!";
         // paciente.classList.add("paciente-invalido");
