@@ -24,19 +24,6 @@ for (let i = 0; i < pacientes.length; i++) {
         tdImc.textContent = "Altura inválida!";
     }
 
-    //  if (peso <= 0 || peso > 635) {
-    //      console.log("Peso inválido");
-    //      pesoValido = false;
-    //      tdImc.textContent = "Peso inválido!";
-    //      //paciente.style.backgroundColor = "lightcoral";
-    //     //  paciente.classList.add("paciente-invalido");
-    //  }
-    // if (altura <= 0 || altura > 3.0) {
-    //      console.log("Altura inválido");
-    //      alturaValida = false;
-    //      tdImc.textContent = "Altura inválida!";
-    //     //  paciente.classList.add("paciente-invalido");
-    //  }
 
     if (!alturaValida && !pesoValido) {
         tdImc.textContent = "Peso e/ou Altura inválidos!";
